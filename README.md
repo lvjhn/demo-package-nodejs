@@ -90,12 +90,15 @@ the summary doesn't still help in recall.
 
 ```bash
 demo-package-nodejs 
+    bin/                              # Binary Files 
+        demo-package.js         
+    node_modules/                     # Module Files
     src/                              # Package Files
         say-hello-world.js
         say-hi.js 
         random-rainbow-color.js
     tests/                            # Test Files
-        main.test 
+        main.test
     index.js                          # Package Entry Point
     README.md                         # This file
     LICENSE.md                        # MIT License 
