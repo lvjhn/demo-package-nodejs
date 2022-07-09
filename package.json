@@ -1,6 +1,6 @@
 {
     "name": "demo-package-nodejs",
-    "version": "0.0.8",
+    "version": "0.0.10",
     "description": "This is a sample package which follows the instructions for publishing a NodeJS package to Yarn. Yarn is used for both ergonomics and performance.",
     "main": "index.js",
     "repository": {
