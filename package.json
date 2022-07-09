@@ -1,0 +1,35 @@
+{
+    "name": "demo-package-nodejs",
+    "version": "0.0.8",
+    "description": "This is a sample package which follows the instructions for publishing a NodeJS package to Yarn. Yarn is used for both ergonomics and performance.",
+    "main": "index.js",
+    "repository": {
+        "url": "https://gitlab.com/demo-package/demo-package-nodejs.git",
+        "type": "git"
+    },
+    "author": "lvjhn",
+    "license": "MIT",
+    "keywords": [
+        "demo-package",
+        "packaging",
+        "yarn",
+        "npm",
+        "package"
+    ],
+    "homepage": "https://gitlab.com/demo-package/demo-package-nodejs",
+    "bugs": "https://gitlab.com/demo-package/demo-package-nodejs.git/~/issues",
+    "files": [
+        "index.js",
+        "LICENSE.md",
+        "README.md",
+        "package.json",
+        "bin/*.js",
+        "src/*.js"
+    ],
+    "bin": {
+        "demo-package": "bin/demo-package.js"
+    },
+    "dependencies": {
+        "chance": "^1.1.8"
+    }
+}
