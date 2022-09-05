@@ -133,7 +133,7 @@ It should return the following:
 ## Reusing as Template
 If you intend to reuse this package as a template for future package projects, use the following command: 
 
-`git clone https://gitlab.com/demo-package/demo-package-nodejs.git`
+`git clone https://gitlab.com/lvjhn/demo-package-nodejs [your_project]`
 
 Edit `package.json` to match your project description.
 
